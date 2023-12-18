@@ -9,7 +9,7 @@ import pandas as pd
 START_URL = "https://exoplanets.nasa.gov/exoplanet-catalog/"
 
 # Webdriver
-browser = webdriver.Chrome("D:/Setup/chromedriver_win32/chromedriver.exe")
+browser = webdriver.Chrome("./chromedriver.exe")
 browser.get(START_URL)
 
 time.sleep(10)
